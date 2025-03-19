@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flamewidgets"
+version = "0.1.4"
+description = "Snippets of code that can be used to create UI's similar to Flame."
+authors = [
+    {name = "Michael Vaglienty"},
+    {name = "Claus Steinmassl", email = "info@claus-steinmassl.com"},
+]
+license = {file = "LICENSE"}
+
+dependencies =  [
+    "PySide6"
+]
+
+[project.urls]
+Source = "https://github.com/claussteinmassl/flamewidgets"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
