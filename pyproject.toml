@@ -22,3 +22,5 @@ Source = "https://github.com/claussteinmassl/flamewidgets"
 [tool.setuptools]
 package-dir = {"" = "src"}
 
+[tool.setuptools.package-data]
+flamewidgets = ["resources/**/*"]
