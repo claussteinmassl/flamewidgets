@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "flamewidgets"
-version = "0.1.4"
+version = "0.1.5"
 description = "Snippets of code that can be used to create UI's similar to Flame."
 authors = [
     {name = "Michael Vaglienty"},
