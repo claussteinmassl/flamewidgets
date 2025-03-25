@@ -15,7 +15,7 @@ class DemoApp(QtWidgets.QWidget):
         self.setWindowTitle("Flame Widgets Demo")
         self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
         self.setAttribute(QtCore.Qt.WA_DeleteOnClose)
-        self.setStyleSheet("background-color: #313131")
+        self.setStyleSheet("background-color: #222222")
 
         self.button = FlameButton("This is a button", self.on_click)
         self.button2 = FlameButton("This is a button", self.on_click, button_color="blue")
